@@ -1,9 +1,8 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 
-import HomePage from "./HomePage";
-import ResumePage from "./ResumePage";
-import ProjectsPage from "./ProjectsPage";
+import { HomePage, ProjectsPage, ResumePage } from "./pages";
+import { BusinessCard } from "./components";
 
 import "./App.css";
 
@@ -13,6 +12,7 @@ function App() {
       <Route path="/" exact component={HomePage} />
       <Route path="/resume/" component={ResumePage} />
       <Route path="/projects/" component={ProjectsPage} />
+      <Route path="/working/" component={BusinessCard} />
     </Router>
   );
 }

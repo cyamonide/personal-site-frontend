@@ -1,0 +1,84 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.card-wrapper {
+  /* Positioning */
+
+  /* Display and Box Model */
+  display: flex;
+  height: 350px;
+  width: 800px;
+  padding: 15px;
+  border-radius: 3px;
+  box-shadow: 0 0 20px black;
+
+  /* Other */
+  background: #222d31;
+}
+
+.card-wrapper > div {
+  flex-basis: 0;
+  padding: 5px;
+}
+
+.card-image-wrapper {
+  box-sizing: content-box !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 2;
+}
+
+.card-image-wrapper > img {
+  width: 100%;
+}
+
+.card-text-wrapper {
+  box-sizing: border-box !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-grow: 3;
+  padding-left: 20px !important;
+
+  color: #aaa;
+  font-family: "Source Code Pro", monospace;
+}
+
+.nf-black {
+  color: #2e3436;
+}
+
+.nf-grey {
+  color: rgb(98, 104, 117);
+}
+
+.nf-red {
+  color: #aa0000;
+}
+
+.nf-green {
+  color: #4e9a06;
+}
+
+.nf-yellow {
+  color: #c4a000;
+}
+
+.nf-blue {
+  color: #2f5b94;
+}
+
+.nf-purple {
+  color: #75507b;
+}
+
+.nf-cyan {
+  color: #06989a;
+}
+
+.nf-white {
+  color: #d3d7cf;
+}

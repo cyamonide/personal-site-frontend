@@ -1,0 +1,13 @@
+.home-page-wrapper {
+  padding: 50px;
+}
+
+.home-page-wrapper > div {
+  margin: 0 auto;
+}
+
+.temp {
+  padding: 50px;
+
+  text-align: center;
+}
