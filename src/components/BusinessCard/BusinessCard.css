@@ -115,7 +115,7 @@ a {
   }
 
   .card-text-wrapper {
-    padding: inherit !important;
+    padding: 15px 3px !important;
     text-align: center;
   }
 
