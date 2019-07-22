@@ -17,11 +17,26 @@ const Users = () => {
 
 function App() {
   return (
-    <Router>
-      <Route path="/" exact component={Index} />
-      <Route path="/about/" component={About} />
-      <Route path="/users/" component={Users} />
-    </Router>
+    <div>
+      <div>
+        <ul>
+          <li>
+            <Link to="/">Home</Link>
+          </li>
+          <li>
+            <Link to="/about/">About</Link>
+          </li>
+          <li>
+            <Link to="/users/">Users</Link>
+          </li>
+        </ul>
+      </div>
+      <Router>
+        <Route path="/" exact component={Index} />
+        <Route path="/about/" component={About} />
+        <Route path="/users/" component={Users} />
+      </Router>
+    </div>
   );
 }
 
