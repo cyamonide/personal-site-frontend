@@ -7,6 +7,9 @@ a {
   /* Positioning */
 
   /* Display and Box Model */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   height: 350px;
   width: 800px;
@@ -25,6 +28,9 @@ a {
 
 .card-image-wrapper {
   box-sizing: content-box !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -37,6 +43,9 @@ a {
 
 .card-text-wrapper {
   box-sizing: border-box !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
   justify-content: center;

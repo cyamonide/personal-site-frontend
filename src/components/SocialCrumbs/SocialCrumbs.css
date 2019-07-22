@@ -1,4 +1,7 @@
 .social-crumbs-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: space-evenly;
   padding: 50px 0;
