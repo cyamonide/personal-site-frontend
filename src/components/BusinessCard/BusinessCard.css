@@ -106,12 +106,9 @@ a {
 
 @media only screen and (max-width: 950px) {
   .card-wrapper {
+    display: block;
     height: auto;
     width: auto;
-  }
-
-  .card-wrapper {
-    flex-direction: column;
     max-width: 500px;
   }
 
