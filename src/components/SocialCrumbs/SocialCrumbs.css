@@ -1,11 +1,11 @@
 .social-crumbs-wrapper {
   display: flex;
-  justify-content: center;
-  padding: 50px;
+  justify-content: space-evenly;
+  padding: 50px 0;
+  max-width: 500px;
 }
 
 .social-crumbs-wrapper > div {
-  width: 100px;
   text-align: center;
 
   color: rgba(255, 255, 255, 0.4);

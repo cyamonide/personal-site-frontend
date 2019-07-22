@@ -47,6 +47,18 @@ a {
   font-family: "Source Code Pro", monospace;
 }
 
+.divider::after {
+  content: "---------------------------------------------";
+}
+
+.school::after {
+  content: "\00a0\00a0\00a0\00a0"
+}
+
+.work::after {
+  content: "\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0\00a0"
+}
+
 .nf-black {
   color: #2e3436;
 }
@@ -81,4 +93,43 @@ a {
 
 .nf-white {
   color: #d3d7cf;
+}
+
+@media only screen and (max-width: 950px) {
+  .card-wrapper {
+    height: auto;
+    width: auto;
+  }
+
+  .card-wrapper {
+    flex-direction: column;
+    max-width: 500px;
+  }
+
+  .card-image-wrapper {
+    flex-direction: row;
+  }
+
+  .card-image-wrapper > img {
+    width: 250px;
+  }
+
+  .card-text-wrapper {
+    padding: inherit !important;
+    text-align: center;
+  }
+
+  .divider::after {
+    content: "---------";
+  }
+
+  .school::after {
+    content: "\A";
+    white-space: pre;
+  }
+
+  .work::after {
+    content: "\A";
+    white-space: pre;
+  }
 }

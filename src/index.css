@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Source+Code+Pro&display=swap');
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
 

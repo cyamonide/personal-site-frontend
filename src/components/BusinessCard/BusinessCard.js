@@ -18,8 +18,8 @@ const BusinessCard = props => {
             {"//"} <a href="https://github.com/cyamonide/">cyamonide</a>
           </span>
           <br />
-          <span className="nf-grey">
-            ---------------------------------------------
+          <span className="nf-grey divider">
+            
           </span>
           <br />
           <span className="nf-grey">{"/* Professional inquiries */"}</span>{" "}
@@ -35,13 +35,11 @@ const BusinessCard = props => {
           <br />
           <br />
           <span className="nf-grey">{"/* School */"}</span> <br />
-          <span className="nf-yellow">Computer Science</span>
-          &nbsp;&nbsp;&nbsp;&nbsp;
+          <span className="nf-yellow school">Computer Science</span>
           <span className="nf-red">University of Waterloo</span>
           <br />
           <span className="nf-grey">{"/* Work */"}</span> <br />
-          <span className="nf-yellow">SWE Intern</span>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <span className="nf-yellow work">SWE Intern</span>
           <span className="nf-red">Capital One</span>
           <br />
           <span className="nf-grey">{"/* Interests */"}</span> <br />
