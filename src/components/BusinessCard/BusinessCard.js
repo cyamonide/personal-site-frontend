@@ -18,9 +18,7 @@ const BusinessCard = props => {
             {"//"} <a href="https://github.com/cyamonide/">cyamonide</a>
           </span>
           <br />
-          <span className="nf-grey divider">
-            
-          </span>
+          <span className="nf-grey divider"></span>
           <br />
           <span className="nf-grey">{"/* Professional inquiries */"}</span>{" "}
           <br />
