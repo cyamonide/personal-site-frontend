@@ -10,7 +10,7 @@ function App() {
   return (
     <Router>
       <Route path="/" exact component={HomePage} />
-      <Route path="/resume/" component={ResumePage} />
+      {/* <Route path="/resume/" component={ResumePage} /> */}
       <Route path="/projects/" component={ProjectsPage} />
       <Route path="/working/" component={BusinessCard} />
     </Router>
