@@ -1,6 +1,6 @@
 import React from "react";
 
-import { BusinessCard, SocialCrumbs } from "../../components";
+import { BusinessCard, SocialCrumbs, RandomQuote } from "../../components";
 import "./HomePage.css";
 
 const HomePage = props => {
@@ -8,9 +8,7 @@ const HomePage = props => {
     <div className="home-page-wrapper">
       <BusinessCard />
       <SocialCrumbs />
-      <div className="temp">
-        <code>Stay tuned for updates.</code>
-      </div>
+      <RandomQuote />
     </div>
   );
 };
