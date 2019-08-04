@@ -1,6 +1,6 @@
 .random-quote-wrapper {
-  padding: 0 150px;
   text-align: center;
+  margin: 0 auto;
 }
 
 .random-quote-wrapper > div:nth-child(2) > p {
