@@ -73,31 +73,38 @@ a {
 }
 
 .nf-grey {
-  color: rgb(98, 104, 117);
+  /* color: rgb(98, 104, 117); */
+  color: #c0bbb2;
 }
 
 .nf-red {
-  color: #aa0000;
+  /* color: #aa0000; */
+  color: #ff6666;
 }
 
 .nf-green {
-  color: #4e9a06;
+  /* color: #4e9a06; */
+  color: #b5fa74;
 }
 
 .nf-yellow {
-  color: #c4a000;
+  /* color: #c4a000; */
+  color: #ffe056;
 }
 
 .nf-blue {
-  color: #2f5b94;
+  /* color: #2f5b94; */
+  color: #8eb7db;
 }
 
 .nf-purple {
-  color: #75507b;
+  /* color: #75507b; */
+  color: #d567e7;
 }
 
 .nf-cyan {
-  color: #06989a;
+  /* color: #06989a; */
+  color: #74f8fa;
 }
 
 .nf-white {

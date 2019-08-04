@@ -2,12 +2,14 @@
 
 * {
   box-sizing: border-box;
+  /* color: #002425; */
 }
 
 body {
   margin: 0;
 
   background-color: #b1d4e6;
+  /* background-color: #dafeff; */
   font-family: "Montserrat", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
