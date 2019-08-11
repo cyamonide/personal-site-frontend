@@ -1,6 +1,6 @@
 import React from "react";
 
-import mugshot from "./mugshot2.jpg";
+import mugshot from "./mugshot3.jpg";
 import "./BusinessCard.css";
 
 const BusinessCard = props => {
