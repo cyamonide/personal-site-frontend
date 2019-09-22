@@ -33,7 +33,8 @@ const SocialCrumbs = props => {
       </div>
       <div>
         <a
-          href="http://api.cyamonide.me/documents/resume"
+          // href="http://api.cyamonide.me/documents/resume"
+          href="http://cyamonide.me/resume/"
           target="_blank"
           rel="noopener noreferrer"
         >
