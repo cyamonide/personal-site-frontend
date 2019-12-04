@@ -23,12 +23,12 @@ const BusinessCard = props => {
           <span className="nf-grey">{"/* Professional inquiries */"}</span>{" "}
           <br />
           <span className="nf-purple">
-            <a href="mailto:simonliu362@gmail.com">simonliu362@gmail.com</a>
+            <a href="mailto:professional@cyamonide.me">professional@cyamonide.me</a>
           </span>
           <br />
           <span className="nf-grey">{"/* Everything else */"}</span> <br />
           <span className="nf-purple">
-            <a href="mailto:cyamonide@gmail.com">cyamonide@gmail.com</a>
+            <a href="mailto:personal@cyamonide.me">personal@cyamonide.me</a>
           </span>
           <br />
           <br />
@@ -38,7 +38,7 @@ const BusinessCard = props => {
           <br />
           <span className="nf-grey">{"/* Work */"}</span> <br />
           <span className="nf-yellow work">SWE Intern</span>
-          <span className="nf-red">Capital One</span>
+          <span className="nf-red">Coursera</span>
           <br />
           <span className="nf-grey">{"/* Interests */"}</span> <br />
           <span className="nf-green">F1 fan, MTB rider, tech enthusiast</span>
