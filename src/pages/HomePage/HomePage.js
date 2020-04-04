@@ -1,5 +1,5 @@
 import React from "react";
-import { Grid } from "@material-ui/core";
+import { Grid, Link } from "@material-ui/core";
 
 import { BusinessCard, SocialCrumbs, RandomQuote } from "../../components";
 import "./HomePage.css";
@@ -69,6 +69,24 @@ const HomePage = (props) => {
               </p>
               <p>
                 Tech <span className="subtle">enthusiast</span>
+              </p>
+            </Grid>
+          </Grid>
+        </div>
+        <div className="home-page-card">
+          <Grid container direction="row" justify="center" alignItems="center">
+            <Grid item xs={5}>
+              <h2>Social</h2>
+            </Grid>
+            <Grid item xs={7}>
+              <p>
+                <Link href="https://resume.cyamonide.me">Resume</Link>
+              </p>
+              <p>
+                <Link href="https://www.linkedin.com/in/cyamonide/">LinkedIn</Link>
+              </p>
+              <p>
+                <Link href="http://github.com/cyamonide/">GitHub</Link>
               </p>
             </Grid>
           </Grid>
