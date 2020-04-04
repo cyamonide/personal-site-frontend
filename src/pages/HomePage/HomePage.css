@@ -2,12 +2,25 @@
   padding: 40px 20px;
 }
 
-.home-page-wrapper > div {
-  margin: 0 auto;
+.home-page-wrapper h1 {
+  padding-left: 5px;
 }
 
-.temp {
-  padding: 50px;
+.home-page-wrapper > div {
+  margin: 20px auto;
+  max-width: 900px;
+}
 
-  text-align: center;
+.subtle {
+  color: #888;
+  font-size: 70%;
+}
+
+.home-page-card {
+  padding: 20px;
+  box-shadow: 0 0 5px #CCC;
+}
+
+.home-page-card h2, .home-page-card p {
+  margin: 3px 0;
 }
