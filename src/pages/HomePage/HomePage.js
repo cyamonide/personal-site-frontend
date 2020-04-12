@@ -1,7 +1,8 @@
 import React from "react";
 import { Grid, Link } from "@material-ui/core";
 
-import { BusinessCard, SocialCrumbs, RandomQuote } from "../../components";
+// import { BusinessCard, SocialCrumbs, RandomQuote } from "../../components";
+import mugshot from "./mugshot.jpg";
 import "./HomePage.css";
 
 const HomePage = (props) => {
@@ -9,9 +10,18 @@ const HomePage = (props) => {
     <>
       <div className="home-page-wrapper">
         <div>
-          <h1>
-            SIMON LIU <span className="subtle">// cyamonide</span>
-          </h1>
+          <Grid container justify="flex-start">
+            <Grid item id="mugshot">
+              <img src={mugshot} alt="mugshot" />
+            </Grid>
+          </Grid>
+          <Grid container>
+            <Grid item>
+              <h1>
+                SIMON LIU <span className="subtle">{"// cyamonide"}</span>
+              </h1>
+            </Grid>
+          </Grid>
         </div>
         <div className="home-page-card">
           <Grid container direction="row" justify="center" alignItems="center">
@@ -68,6 +78,9 @@ const HomePage = (props) => {
                 Mountain bike <span className="subtle">rider</span>
               </p>
               <p>
+                Mechanical keyboard <span className="subtle">tinkerer</span>
+              </p>
+              <p>
                 Tech <span className="subtle">enthusiast</span>
               </p>
             </Grid>
@@ -83,7 +96,9 @@ const HomePage = (props) => {
                 <Link href="https://resume.cyamonide.me">Resume</Link>
               </p>
               <p>
-                <Link href="https://www.linkedin.com/in/cyamonide/">LinkedIn</Link>
+                <Link href="https://www.linkedin.com/in/cyamonide/">
+                  LinkedIn
+                </Link>
               </p>
               <p>
                 <Link href="http://github.com/cyamonide/">GitHub</Link>
@@ -91,11 +106,6 @@ const HomePage = (props) => {
             </Grid>
           </Grid>
         </div>
-      </div>
-      <div className="home-page-wrapper">
-        <BusinessCard />
-        <SocialCrumbs />
-        <RandomQuote />
       </div>
     </>
   );

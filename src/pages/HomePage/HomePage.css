@@ -18,9 +18,14 @@
 
 .home-page-card {
   padding: 20px;
-  box-shadow: 0 0 5px #CCC;
+  box-shadow: 0 0 5px #ccc;
 }
 
-.home-page-card h2, .home-page-card p {
+.home-page-card h2,
+.home-page-card p {
   margin: 3px 0;
+}
+
+#mugshot img {
+  width: 300px;
 }
