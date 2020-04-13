@@ -78,10 +78,7 @@ const HomePage = (props) => {
                 Mountain bike <span className="subtle">rider</span>
               </p>
               <p>
-                Mechanical keyboard <span className="subtle">tinkerer</span>
-              </p>
-              <p>
-                Tech <span className="subtle">enthusiast</span>
+                Mechanical keyboard <span className="subtle">enthusiast</span>
               </p>
             </Grid>
           </Grid>
